@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Streamlit temporary runtime cache
+.streamlit/
+
+# Database journals / locks (keep main sqlite db tracked)
+*.sqlite-journal
+*.sqlite3-journal
+*.db-journal
+
+# ==============================================================================
+# SECRETS & ENVIRONMENT VARIABLES (EXPLICITLY INCLUDED / NOT IGNORED)
+# Per repository requirements, do NOT ignore secrets or environment variable files in git.
+# ==============================================================================
+!*.env
+!*.env.*
+!.env
+!.env.example
+!*secret*
+!*credentials*
